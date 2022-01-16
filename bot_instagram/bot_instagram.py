@@ -43,7 +43,7 @@ class BotInstagram:
         email_textarea.send_keys(email)
         sleep(1)
 
-        # Senha
+        # Password
         password_textarea.click()
         sleep(0.5)
         password_textarea = self.driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[2]/div/label/input')
@@ -53,7 +53,7 @@ class BotInstagram:
         password_textarea.send_keys(password)
         sleep(0.5)
 
-        # Entrar 
+        # Login 
         self.driver.find_element_by_xpath('//*[@id="loginForm"]/div/div[3]/button').click()
 
 
